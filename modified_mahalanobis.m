@@ -20,7 +20,7 @@ for i = 1+ncov:length(yM)-ncov
     
     % Denoise via projection on "known" # of dimensions
     [U, S, V]    = svd(c);
-    inv_c(:,:,i) = U(:,1:finalDim) / (S(1:finalDim,1:finalDim)) * V(:,1:finalDim)';
+    inv_c(:,:,i) = V(:,1:finalDim) / (S(1:finalDim,1:finalDim)) * U(:,1:finalDim)';
     
 end
 
