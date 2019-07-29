@@ -1,4 +1,4 @@
-# Diffusion-Maps-Kalman
+# Manifold-Learning-for-Data-Driven-Dynamical-System-Analysis
 MATLAB code implementation of the non-Linear object tracking example  from: 
 T. Shnitzer, R. Talmon and J.J. Slotine, "Manifold Learning for Data-Driven Dynamical System Analysis"
 
