@@ -1,4 +1,4 @@
-% Construct diffusion maps kernel and eigenvectors
+% Construct the Diffusion Maps Kalman Filter Estimation
 % ***************************************************************@
 
 function [psi_hat, y_est] = dmk(psi, lambda, yM, deltaT, tt)
